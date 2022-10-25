@@ -7,264 +7,27 @@
     <title>Document</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <style>
-        .container-19{
-            height: 60px;
-        }
-        .container-20{
-            display: flex;
-            justify-content: center;
-            background-color: #F5EFE6;
-        }
-        .shopping-cart-wrap{
-            width: 1200px;
-            height: 600px;
-        }
-        .shopping-step{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items: center;
-            gap: 30px;
-            margin: 40px 0;
-        }
-        .buy-step{
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            gap: 20px;
-        }
-        .buy-step .step2,.step3{
-            color: #aeaeae;
-        }
-        .buy-step .circle01{
-            background-color: #F5A74B;
-            padding: 6px 9px;
-            color: #fff;
-            border-radius: 50%;
-        }
-        .buy-step .circle02,.circle03{
-            background-color: #c4c4c4;
-            padding: 8px 11px;
-            color: #fff;
-            border-radius: 50%;
-        }
-        .arrow img{
-            width: 25px;
-        }
-        .cart-class-order{
-            display: flex;
-            gap: 100px;
-        }
-        .cart-class{
-            display: flex;
-            flex-direction: column;
-        }
-        .cart-icon{
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-        .cart-icon img{
-            width: 20px;
-        }
-        .cart-icon p{
-            font-size: 18px;
-        }
-        .cart-item-wrap{
-            display: flex;
-            flex-direction: column;
-            width: 800px;
-            height: 190px;
-            gap: 20px;
-            border-radius: 5px;
-            background-color: #fff;
-            margin-bottom: 50px;
-        }
-        .cart-item-menu{
-            background-color: #F5A74B;
-            border-radius: 5px 5px 0 0;
-        }
-        .cart-menu{
-            display: flex;
-            color: #fff;
-            font-size: 14px;
-            padding: 15px;
-        }
-        .cart-menu li:nth-child(2){
-            padding-left: 25px;
-            padding-right: 350px;
-        }
-        .cart-menu li:nth-child(2)~li{
-            padding-left: 70px;
-        }
-        .cart-item-detail{
-            display: flex;
-            gap: 25px;
-            padding:0 15px;
-        }
-        .class-detail{
-            display: flex;
-            align-items: flex-start;
-            gap: 20px;
-        }
-        .class-detail img{
-            width: 180px;
-            border-radius: 8px;
-        }
-        .cart-class-title{
-            text-decoration: none;
-            color: #333;
-        }
-        .class-detail-status{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-        .class-detail-status .status{
-            display: flex;
-            align-items: center;
-            gap: 5px;
-            color: #B64DE8;
-        }
-        .class-detail-status p{
-            font-size: 12px;
-            color: #B64DE8;
-        }
-        .class-detail .class-type{
-            color: rgb(159, 159, 159);
-        }
-        .class-type{
-            margin-left: 18px;
-        }
-        .cart-item-detail .cart-btn{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            align-items: center;
-            align-self: center;
-            margin-left: 30px;
-            cursor: pointer;
-        }
-        .cart-btn img{
-            width: 80%;
-            height: auto;
-        }
-        .cart-order-wrap{
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            width: 250px;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-        }
-        .cart-order-wrap>p{
-            font-size: 18px;
-            color: #333;
-            font-weight: 700;
-            padding-bottom: 10px;
-            border-bottom: 1px solid #c4c4c4;
-        }
-        .price-dollar{
-            display: flex;
-            justify-content: space-between;
-        }
-        .price-dollar>p:first-child{
-            color: #aeaeae;
-        }
-        .coupon{
-            display: flex;
-            justify-content: space-between;
-            background-color: #FBF1FF;
-            padding: 8px 10px;
-            border-radius: 5px;
-            align-items: center;
-            color: #B64DE8;
-        }
-        .coupon img{
-            width: 8px;
-        }
-        .coupon button{
-            font-size: 12px;
-            background-color: #B64DE8;
-            color: #fff;
-            border: none;
-            padding: 5px 10px;
-            border-radius: 20px;
-            cursor: pointer;
-        }
-        .coupon-price{
-            display: flex;
-            justify-content: space-between;
-            border-bottom: 1px solid #c4c4c4;
-            padding-bottom: 10px;
-        }
-        .coupon-price>:first-child{
-            color: #aeaeae;
-            font-size: 12px;
-        }
-        .coupon-price>:last-child{
-            color: #B64DE8;
-        }
-        .total-price{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        .total-price>:last-child{
-            font-size: 20px;
-            color: #B64DE8;
-            font-weight: 700;
-        }
-        .pay-btn{
-            background-color: #F5A74B;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-        }
-        .pay-btn a{
-            text-decoration: none;
-            color: #fff;
-            font-weight: 700;
-            font-size: 14px;
-        }
-        .cart-save-icon{
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 20px;
-        }
-        .cart-save-icon p{
-            font-size: 18px;
-        }
-        .cart-save-wrap{
-            background-color: #fff;
-            height: 50px;
-            padding: 10px 20px;
-            border-radius: 5px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        .cart-save-wrap a{
-            text-decoration: none;
-            color: #aeaeae;
-            font-size: 14px;
-            
-        }
-    </style>
+    <link rel="stylesheet" href="shopping-cart.css">
+    <link rel="stylesheet" href="header_RWD.css">
+    <link rel="stylesheet" href="footer_RWD.css">
 </head>
 <body>
     <section class="header">
         <nav class="main-nav">
+            <a class="rwd-cart" href="./shopping-cart-default.html"><img src="./img_src/shopping-cart_48px.png" alt=""></a>
+            <button class="rwd-search"><img src="./img_src/search-icon_48px.png" alt=""></button>
+            <label for="menu-control" class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <img class="logo" src="./img_src/logo_140px.png" alt="">
+            <div class="nav-wrap">
                 <ul class="nav-item nav-item-left">
-                    <a href="./index.html"><img class="logo" src="./img_src/logo_140px.png" alt=""></a>
                     <li class="scroll-nav">
-                        <a href="#">探索課程<img src="./img_src/angle_down.png" alt=""></span></a>
+                        <a class="underline underline-o" href="./allcourse_RWD.html">探索課程<img src="./img_src/angle_down.png" alt=""></a>
                         <ul class="scroll-bar">
-                            <li><a href="./allcourse.html">所有課程</a></li>
+                            <li><a href="./allcourse_RWD.html">所有課程</a></li>
                             <li><a href="#">商業</a></li>
                             <li><a href="#">行銷</a></li>
                             <li><a href="#">語言</a></li>
@@ -274,15 +37,16 @@
                             <li><a href="#">生活品味</a></li>
                         </ul>
                     </li>
-                    <li><input inputmode="search" placeholder="    Search" type="text"></li>
-                    <li><a href="#">直播</a></li>
-                    <li><a href="#">文章</a></li>
+                    <li><input class="search" inputmode="search" placeholder="前端工程師技能" type="search"><img src="./img_src/search-icon_48px.png" alt=""></li>
+                    <li><a class="underline underline-o" href="#">直播</a></li>
+                    <li ><a class="underline underline-o" href="#">文章</a></li>
                 </ul>
                 <ul class="nav-item nav-item-right">
-                    <li><img class="saved" src="./img_src/saved_48px.png" alt=""><a href="#"></a></li>
-                    <li><img class="cart" src="./img_src/shopping-cart_48px.png" alt=""><a href="#"></a></li>
+                    <li><a href="#"><img class="saved" src="./img_src/saved_48px.png" alt=""></a></li>
+                    <li><a href="./shopping-cart-default.html"><img class="cart" src="./img_src/shopping-cart_48px.png" alt=""></a></li>
                     <li><a class="nav-login" href="./login-signup.html">登入/註冊</a></li>
                 </ul>
+            </div>
         </nav>
     </section>
     <section class="container-19">
@@ -378,17 +142,14 @@
     <footer class="container-8">
         <div class="footer-wrap">
             <div class="footer-left">
-                <div class="footer-brand">
-                    <!-- <img class="footer-logo" src="/img_src/logo_140px.png" alt=""> -->
-                    <div class="footer-btn-social">
-                        <a href=""><img src="./img_src/btn-tw.png" alt=""></a>
-                        <a href=""><img src="./img_src/btn-fb.png" alt=""></a>
-                        <a href=""><img src="./img_src/btn-yt.png" alt=""></a>
-                        <a href=""><img src="./img_src/btn-ig.png" alt=""></a>
-                    </div>
-                    <div class="copyright">
-                        <p>Copyright &copy; 2022 LearnKit Co.,Ltd. All rights reserved.</p>
-                    </div>
+                <div class="footer-btn-social">
+                    <a href=""><img src="./img_src/btn-tw.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-fb.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-yt.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-ig.png" alt=""></a>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2022 LearnKit Co.,Ltd. All rights reserved.</p>
                 </div>
             </div>
             <div class="footer-right">
@@ -396,27 +157,27 @@
                     <div class="about-us">
                         <h4>關於</h4>
                         <ul>
-                            <li>關於我們</li>
-                            <li>加入我們</li>
-                            <li>使用者條款</li>
-                            <li>隱私權政策</li>
+                            <li><a href="#">關於我們</a></li>
+                            <li><a href="#">加入我們</a></li>
+                            <li><a href="#">使用者條款</a></li>
+                            <li><a href="#">隱私權政策</a></li>
                         </ul>
                     </div>
                     <div class="about-us">
                         <h4>幫助</h4>
                         <ul>
-                            <li>常見問題</li>
-                            <li>成為講師</li>
-                            <li>課程許願</li>
-                            <li>合作洽談</li>
+                            <li><a href="#">常見問題</a></li>
+                            <li><a href="#">成為講師</a></li>
+                            <li><a href="#">課程許願</a></li>
+                            <li><a href="#">合作洽談</a></li>
                         </ul>
                     </div>
                     <div class="about-us">
                         <h4>聯絡我們</h4>
                         <ul>
-                            <li>Email: support@learnkit.com</li>
-                            <li>電話: +886-2-1234-567</li>
-                            <li>地址: 320 桃園市中壢區復興路46號9樓</li>
+                            <li><a href="#">Email: support@learnkit.com</a></li>
+                            <li><a href="#">電話: +886-2-1234-567</a></li>
+                            <li><a href="#">地址: 320 桃園市中壢區復興路46號9樓</a></li>
                         </ul>
                     </div>
                 </div>

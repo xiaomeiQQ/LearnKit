@@ -413,21 +413,6 @@
         font-size: 22px;
         margin: 5px;
     }
-    /* .freecourse-slider{
-        display: flex;
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-    .freecourse-slider img{
-        width: 100%;
-    }
-    .freecourse-slider a:nth-child(1){
-        display: none;
-    }
-    .freecourse-slider a:nth-child(3){
-        display: none;
-    } */
     /* --------upcoming-------- */
     .course-se{
         align-items: center;
