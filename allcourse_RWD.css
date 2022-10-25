@@ -454,6 +454,9 @@
         width: 95%;
         /* margin: auto; */
     }
+    .card-date-price-2 p{
+        color: #4E4E4E;
+    }
     .card-content .card-date-price-2 span{
         color: #B64DE8;
         font-size: 18px;
