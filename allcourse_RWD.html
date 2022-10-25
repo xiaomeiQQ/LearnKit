@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="header_RWD.css">
+    <link rel="stylesheet" href="footer_RWD.css">
+    <link rel="stylesheet" href="allcourse_RWD.css">
+</head>
+<body>
+    <input type="checkbox" name="" id="menu-control">
+    <section class="header">
+        <nav class="main-nav">
+            <a class="rwd-cart" href="./shopping-cart-default.html"><img src="./img_src/shopping-cart_48px.png" alt=""></a>
+            <button class="rwd-search"><img src="./img_src/search-icon_48px.png" alt=""></button>
+            <label for="menu-control" class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <a href="./index_RWD.html"><img class="logo" src="./img_src/logo_140px.png" alt=""></a>
+            <div class="nav-wrap">
+                <ul class="nav-item nav-item-left">
+                    <li class="scroll-nav">
+                        <a class="underline underline-o" href="./allcourse_RWD.html">探索課程<img src="./img_src/angle_down.png" alt=""></a>
+                        <ul class="scroll-bar">
+                            <li><a href="#">所有課程</a></li>
+                            <li><a href="#">商業</a></li>
+                            <li><a href="#">行銷</a></li>
+                            <li><a href="#">語言</a></li>
+                            <li><a href="#">程式與科技</a></li>
+                            <li><a href="#">音樂</a></li>
+                            <li><a href="#">藝術與設計</a></li>
+                            <li><a href="#">生活品味</a></li>
+                        </ul>
+                    </li>
+                    <li><input class="search" inputmode="search" placeholder="前端工程師技能" type="search"><img src="./img_src/search-icon_48px.png" alt=""></li>
+                    <li><a class="underline underline-o" href="#">直播</a></li>
+                    <li ><a class="underline underline-o" href="#">文章</a></li>
+                </ul>
+                <ul class="nav-item nav-item-right">
+                    <li><a href="#"><img class="saved" src="./img_src/saved_48px.png" alt=""></a></li>
+                    <li><a href="./shopping-cart-default.html"><img class="cart" src="./img_src/shopping-cart_48px.png" alt=""></a></li>
+                    <li><a class="nav-login" href="./login-signup.html">登入/註冊</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="container-9">
+        <h2>探索屬於你的課程 盡情學習充電</h2> 
+    </section>
+    <section class="container-10">
+        <ul class="path">
+            <li><a href="#">首頁</a></li>
+            <li><a href="#">探索課程</a></li>
+            <li><a href="#">所有課程</a></li>
+        </ul>
+    </section>
+    <section class="container-11">
+        <div class="course-all-wrap">
+            <div class="course-nav">
+                <div class="course-sticky">
+                    <input id="collapse1" type="radio" name="tap-input" hidden />
+                    <input id="collapse2" type="radio" name="tap-input" hidden />
+                    <input id="collapse3" type="radio" name="tap-input" hidden />
+                    <article>
+                        <h4>所有課程</h4>
+                        <label for="collapse1"><h4>商業<img class="angle-down-black" src="./img_src/angle_down_black.png" alt=""></h4></label>
+                        <p>商業分析</p>
+                        <p>金融理財</p>
+                        <p>創業經營</p>
+                        <p>溝通談判</p>
+                        <p>專案管理</p>
+                        <p>職場技能</p>
+                    </article>
+                    <article>
+                        <label for="collapse2"><h4>行銷<img class="angle-down-black" src="./img_src/angle_down_black.png" alt=""></h4></label>
+                        <p>數位行銷</p>
+                        <p>數據分析</p>
+                        <p>SEO</p>
+                        <p>社群經營</p>
+                        <p>品牌行銷</p>
+                        <p>內容行銷</p>
+                    </article>
+                    <article>
+                        <label for="collapse3"><h4>語言<img class="angle-down-black" src="./img_src/angle_down_black.png" alt=""></h4></label>
+                        <p>英語</p>
+                        <p>日語</p>
+                        <p>韓語</p>
+                        <p>西班牙語</p>
+                        <p>法語</p>
+                        <p>其他語言</p>
+                    </article>
+                    <article>
+                        <label><h4>程式與科技<img class="angle-down-black" src="./img_src/angle_down_black.png" alt=""></h4></label>
+                    </article>
+                    <article>
+                        <label><h4>音樂<img class="angle-down-black" src="./img_src/angle_down_black.png" alt=""></h4></label>
+                    </article>
+                    <article>
+                        <label><h4>藝術與設計<img class="angle-down-black" src="./img_src/angle_down_black.png" alt=""></h4></label>
+                    </article>
+                    <article>
+                        <label><h4>生活品味<img class="angle-down-black" src="./img_src/angle_down_black.png" alt=""></h4></label>
+                    </article>
+                </div>
+            </div>
+            <div class="course-all-list">
+                <div class="course-tb-wrap">
+                    <div class="course-all-btn-sort">
+                        <div class="course-all-btn">
+                            <a class="nav-btn" href="#">所有課程</a>
+                            <a href="#">充電募資</a>
+                            <a href="#">滿電熱銷</a>
+                        </div>
+                        <div class="options">
+                            <p>排序</p>
+                            <select class="sort">
+                                <option>最新上市</option>
+                                <option>最高評價</option>
+                                <optgroup label="價格">
+                                    <option>遞增</option>
+                                    <option>遞減</option>
+                                </optgroup>
+                                <optgroup label="時長">
+                                    <option>遞增</option>
+                                    <option>遞減</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="card-wrap">
+                        <div class="card-list up-line">
+                            <img class="speaker" src="./img_src/speaker_03.png" alt="">
+                            <a class="card-image" href="./course_example_RWD.html"><img  src="./img_src/course_06.png" alt=""></a>
+                            <div class="card-content">
+                                <div class="flex-grow">
+                                    <a href="./course_example_RWD.html"><h4>建立個人品牌視覺，帶你上手風格再造</h4></a>
+                                    <p class="time-speaker">290分鐘 / LearnKit</p>
+                                </div>
+                                <div class="flex-g-bar">
+                                    <div class="card-tag">
+                                        <div class="hashtag"><a href="#">#視覺設計</a></div>
+                                        <div class="hashtag"><a href="#">#Procreate</a></div>
+                                    </div>
+                                    <div class="card-date-price">
+                                        <p>倒數9天</p>
+                                        <p>預購價<span>NT $1,890</span></p>
+                                    </div>
+                                    <div class="card-ptage">
+                                        <p>滿電中</p>
+                                        <p>131%</p>
+                                    </div>
+                                    <img class="card-runbar" src="./img_src/runbar_02.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-list po-line">
+                            <img class="speaker" src="./img_src/speaker_02.png" alt="">
+                            <a class="card-image" href="./course_example_RWD.html"><img  src="./img_src/course_07.png" alt=""></a>
+                            <div class="card-content">
+                                <div class="flex-grow">
+                                    <h4>動態設計思維，帶你培養美感與動畫鑑賞力</h4>
+                                    <p class="time-speaker">185分鐘 / LearnKit</p>
+                                    <div class="course-score">
+                                        <p>課程評價</p>
+                                        <img src="./img_src/feedback-score_4.png" alt="">
+                                        <p>(42)</p>
+                                    </div>
+                                </div>
+                                <div class="flex-g-bar">
+                                    <div class="card-tag">
+                                        <div class="hashtag"><a href="#">#動態設計</a></div>
+                                        <div class="hashtag"><a href="#">#Keynote</a></div>
+                                    </div>
+                                        <div class="card-date-price-2">
+                                            <p>熱銷價<span> NT $2,080</span></p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-list up-line">
+                            <img class="speaker" src="./img_src/speaker_01.png" alt="">
+                            <a class="card-image" href="./course_example_RWD.html"><img  src="./img_src/course_05.png" alt=""></a>
+                            <div class="card-content">
+                                <div class="flex-grow">
+                                    <a href="./course_01.html"><h4>3D動畫生存百科大全</h4></a>
+                                    <p class="time-speaker">320分鐘 / LearnKit</p>
+                                </div>
+                                <div class="flex-g-bar">
+                                    <div class="card-tag">
+                                        <div class="hashtag"><a href="#">#3D動畫</a></div>
+                                        <div class="hashtag"><a href="#">#After Effects</a></div>
+                                    </div>
+                                    <div class="card-date-price">
+                                        <p>倒數32天</p>
+                                        <p>預購價<span>NT $2,990</span></p>
+                                    </div>
+                                    <div class="card-ptage">
+                                        <p>充電中</p>
+                                        <p>72%</p>
+                                    </div>
+                                    <img class="card-runbar" src="./img_src/runbar_01.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-list po-line">
+                            <img class="speaker" src="./img_src/speaker_01.png" alt="">
+                            <a class="card-image" href="./course_example_RWD.html"><img  src="./img_src/course_05.png" alt=""></a>
+                            <div class="card-content">
+                                <div class="flex-grow">
+                                    <h4>3D動畫生存百科大全</h4>
+                                    <p class="time-speaker">320分鐘 / LearnKit</p>
+                                    <div class="course-score">
+                                        <p>課程評價</p>
+                                        <img src="./img_src/feedback-score_5.png" alt="">
+                                        <p>(70)</p>
+                                    </div>
+                                </div>
+                                <div class="flex-g-bar">
+                                    <div class="card-tag">
+                                        <div class="hashtag"><a href="#">#3D動畫</a></div>
+                                        <div class="hashtag"><a href="#">#After Effects</a></div>
+                                    </div>
+                                        <div class="card-date-price-2">
+                                            <p>熱銷價<span> NT $2,990</span></p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-list po-line">
+                            <img class="speaker" src="./img_src/speaker_04.png" alt="">
+                            <a class="card-image" href="./course_example_RWD.html"><img  src="./img_src/course_08.png" alt=""></a>
+                            <div class="card-content">
+                                <div class="flex-grow">
+                                    <h4>Ai+Ps技能大補帖，新手上路必學攻略</h4>
+                                    <p class="time-speaker">224分鐘 / LearnKit</p>
+                                    <div class="course-score">
+                                        <p>課程評價</p>
+                                        <img src="./img_src/feedback-score_4.png" alt="">
+                                        <p>(30)</p>
+                                    </div>
+                                </div>
+                                <div class="flex-g-bar">
+                                    <div class="card-tag">
+                                        <div class="hashtag"><a href="#">#Photoshop</a></div>
+                                        <div class="hashtag"><a href="#">#Illustrator</a></div>
+                                    </div>
+                                        <div class="card-date-price-2">
+                                            <p>熱銷價<span> NT $1,590</span></p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-list up-line">
+                            <img class="speaker" src="./img_src/speaker_02.png" alt="">
+                            <a class="card-image" href="./course_example_RWD.html"><img src="./img_src/course_07.png" alt=""></a>
+                            <div class="card-content">
+                                <div class="flex-grow">
+                                    <a href="./course_01.html"><h4>動態設計思維，帶你培養美感與動畫鑑賞力</h4></a>
+                                    <p class="time-speaker">185分鐘 / LearnKit</p>
+                                </div>
+                                <div class="flex-g-bar">
+                                    <div class="card-tag">
+                                        <div class="hashtag"><a href="#">#動態設計</a></div>
+                                        <div class="hashtag"><a href="#">#Keynote</a></div>
+                                    </div>
+                                    <div class="card-date-price">
+                                            <p>倒數4天</p>
+                                            <p>預購價<span>NT $2,080</span></p>
+                                        </div>
+                                    <div class="card-ptage">
+                                        <p>滿電中</p>
+                                        <p>205%</p>
+                                    </div>
+                                    <img class="card-runbar" src="./img_src/runbar_02.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-list po-line">
+                            <img class="speaker" src="./img_src/speaker_03.png" alt="">
+                            <a class="card-image" href="./course_example_RWD.html"><img  src="./img_src/course_06.png" alt=""></a>
+                            <div class="card-content">
+                                <div class="flex-grow">
+                                    <h4>建立個人品牌視覺，帶你上手風格再造</h4>
+                                    <p class="time-speaker">290分鐘 / LearnKit</p>
+                                    <div class="course-score">
+                                        <p>課程評價</p>
+                                        <img src="./img_src/feedback-score_4.png" alt="">
+                                        <p>(42)</p>
+                                    </div>
+                                </div>
+                                <div class="flex-g-bar">
+                                    <div class="card-tag">
+                                        <div class="hashtag"><a href="#">#視覺設計</a></div>
+                                        <div class="hashtag"><a href="#">#Procreate</a></div>
+                                    </div>
+                                        <div class="card-date-price-2">
+                                            <p>熱銷價<span> NT $1,890</span></p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-list up-line">
+                            <img class="speaker" src="./img_src/speaker_04.png" alt="">
+                            <a class="card-image" href="./course_example_RWD.html"><img src="./img_src/course_08.png" alt=""></a>
+                            <div class="card-content">
+                                <div class="flex-grow">
+                                    <a href="./course_01.html"><h4>Ai+Ps技能大補帖，新手上路必學攻略</h4></a>
+                                    <p class="time-speaker">224分鐘 / LearnKit</p>
+                                </div>
+                                <div class="flex-g-bar">
+                                    <div class="card-tag">
+                                        <div class="hashtag"><a href="#">#Photoshop</a></div>
+                                        <div class="hashtag"><a href="#">#Illustrator</a></div>
+                                    </div>  
+                                    <div class="card-date-price">
+                                        <p>倒數15天</p>
+                                        <p>預購價<span>NT $1,590</span></p>
+                                    </div>
+                                    <div class="card-ptage">
+                                        <p>充電中</p>
+                                        <p>92%</p>
+                                    </div>
+                                    <img class="card-runbar" src="./img_src/runbar_03.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-list po-line">
+                            <img class="speaker" src="./img_src/speaker_02.png" alt="">
+                            <a class="card-image" href="./course_example_RWD.html"><img  src="./img_src/course_07.png" alt=""></a>
+                            <div class="card-content">
+                                <div class="flex-grow">
+                                    <h4>動態設計思維，帶你培養美感與動畫鑑賞力</h4>
+                                    <p class="time-speaker">185分鐘 / LearnKit</p>
+                                    <div class="course-score">
+                                        <p>課程評價</p>
+                                        <img src="./img_src/feedback-score_4.png" alt="">
+                                        <p>(42)</p>
+                                    </div>
+                                </div>
+                                <div class="flex-g-bar">
+                                    <div class="card-tag">
+                                        <div class="hashtag"><a href="#">#動態設計</a></div>
+                                        <div class="hashtag"><a href="#">#Keynote</a></div>
+                                    </div>
+                                        <div class="card-date-price-2">
+                                            <p>熱銷價<span> NT $2,080</span></p>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-all-btn-more">
+                    <div class="course-all-btn-left">
+                        <img src="./img_src/course-all-left.png" alt="">
+                    </div>
+                    <div class="course-all-btn-number">
+                        <p class="number">1</p>
+                        <p class="number">2</p>
+                        <p class="number">3</p>
+                        <p class="number">4</p>
+                        <p class="number">5</p>
+                        <p class="number">6</p>
+                    </div>
+                    <div class="course-all-btn-right">
+                        <img src="./img_src/course-all-right.png" alt="">
+                    </div>
+                </div> 
+            </div>
+        </div>          
+    </section>
+    <footer class="container-8">
+        <div class="footer-wrap">
+            <div class="footer-left">
+                <div class="footer-btn-social">
+                    <a href=""><img src="./img_src/btn-tw.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-fb.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-yt.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-ig.png" alt=""></a>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2022 LearnKit Co.,Ltd. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-menu">
+                    <div class="about-us">
+                        <h4>關於</h4>
+                        <ul>
+                            <li><a href="#">關於我們</a></li>
+                            <li><a href="#">加入我們</a></li>
+                            <li><a href="#">使用者條款</a></li>
+                            <li><a href="#">隱私權政策</a></li>
+                        </ul>
+                    </div>
+                    <div class="about-us">
+                        <h4>幫助</h4>
+                        <ul>
+                            <li><a href="#">常見問題</a></li>
+                            <li><a href="#">成為講師</a></li>
+                            <li><a href="#">課程許願</a></li>
+                            <li><a href="#">合作洽談</a></li>
+                        </ul>
+                    </div>
+                    <div class="about-us">
+                        <h4>聯絡我們</h4>
+                        <ul>
+                            <li><a href="#">Email: support@learnkit.com</a></li>
+                            <li><a href="#">電話: +886-2-1234-567</a></li>
+                            <li><a href="#">地址: 320 桃園市中壢區復興路46號9樓</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="personal-project">
+        <p>本網站為緯育TibaMe_前端設計工程師班學員專題成果作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。</p>
+    </div>
+</body>
+</html>

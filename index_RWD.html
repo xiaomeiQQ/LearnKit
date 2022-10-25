@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnKit | 隨時隨地學習新知</title>
+    <script src="./jquery-3.6.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index_RWD.css">
+    <link rel="stylesheet" href="header_RWD.css">
+    <link rel="stylesheet" href="footer_RWD.css">
+    <link rel="stylesheet" href="live-RWD.css">
+    <link rel="stylesheet" href="feedback.css">   
+</head>
+<body>
+    <input type="checkbox" name="" id="menu-control">
+    <section class="header">
+        <nav class="main-nav">
+            <a class="rwd-cart" href="./shopping-cart-default.html"><img src="./img_src/shopping-cart_48px.png" alt=""></a>
+            <button class="rwd-search"><img src="./img_src/search-icon_48px.png" alt=""></button>
+            <label for="menu-control" class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <img class="logo" src="./img_src/logo_140px.png" alt="">
+            <div class="nav-wrap">
+                <ul class="nav-item nav-item-left">
+                    <li class="scroll-nav">
+                        <a class="underline underline-o" href="./allcourse_RWD.html">探索課程<img src="./img_src/angle_down.png" alt=""></a>
+                        <ul class="scroll-bar">
+                            <li><a href="./allcourse.html">所有課程</a></li>
+                            <li><a href="#">商業</a></li>
+                            <li><a href="#">行銷</a></li>
+                            <li><a href="#">語言</a></li>
+                            <li><a href="#">程式與科技</a></li>
+                            <li><a href="#">音樂</a></li>
+                            <li><a href="#">藝術與設計</a></li>
+                            <li><a href="#">生活品味</a></li>
+                        </ul>
+                    </li>
+                    <li><input class="search" inputmode="search" placeholder="前端工程師技能" type="search"><img src="./img_src/search-icon_48px.png" alt=""></li>
+                    <li><a class="underline underline-o" href="#">直播</a></li>
+                    <li ><a class="underline underline-o" href="#">文章</a></li>
+                </ul>
+                <ul class="nav-item nav-item-right">
+                    <li><a href="#"><img class="saved" src="./img_src/saved_48px.png" alt=""></a></li>
+                    <li><a href="./shopping-cart-default.html"><img class="cart" src="./img_src/shopping-cart_48px.png" alt=""></a></li>
+                    <li><a class="nav-login" href="./login-signup.html">登入/註冊</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="container-1">
+        <div class="learnwhere">
+            <div class="learnwhere-item">
+                <div class="learwhere-item-left">
+                    <h1>隨時隨地學習新知<br>到哪都是你的充電教室</h1>
+                    <div class="search-wrap">
+                        <input inputmode="search" placeholder="今天想學習什麼呢？" type="text">
+                        <img class="search-icon" src="./img_src/search-icon_48px.png" alt="">
+                    </div>
+                    <p>大家都在學</p>
+                    <div class="hashtag">
+                        <a href="#">#Procreate</a>
+                        <a href="#">#視覺設計</a>
+                        <a href="#">#Figma</a>
+                    </div>
+                    <div class="hashtag">
+                        <a href="#">#Photoshop</a>
+                        <a href="#">#Illustrator</a>
+                        <a href="#">#動態設計</a>
+                        <a href="#">#UIUX</a>
+                    </div>
+                </div>
+                <div class="learnwhere-item-right">
+                    <img src="./img_src/learn-01.png" alt="">
+                    <img src="./img_src/learn-02.png" alt="">
+                    <img src="./img_src/learn-03.png" alt="">
+                    <img src="./img_src/learn-04.png" alt="">
+                    <img src="./img_src/learn-05.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-2">
+        <div class="freecourse">
+            <div class="freecourse-title">
+                <h2>給你滿滿能量 ! 學習就從<span>免費</span>的開始</h2>
+            </div>
+            <ul class="freecourse-slider">
+               <li><a href="./course_example_RWD.html"><img src="./img_src/course_02.png" alt=""></a></li>
+               <li><a href="./course_example_RWD.html"><img src="./img_src/course_01.png" alt=""></a></li>
+               <li><a href="./course_example_RWD.html"><img src="./img_src/course_03.png" alt=""></a></li>
+               <li><a href="./course_example_RWD.html"><img src="./img_src/course_02.png" alt=""></a></li>
+               <li><a href="./course_example_RWD.html"><img src="./img_src/course_01.png" alt=""></a></li>
+               <li><a href="./course_example_RWD.html"><img src="./img_src/course_03.png" alt=""></a></li>
+               <li><a href="./course_example_RWD.html"><img src="./img_src/course_02.png" alt=""></a></li>
+               <li><a href="./course_example_RWD.html"><img src="./img_src/course_01.png" alt=""></a></li>
+               <li><a href="./course_example_RWD.html"><img src="./img_src/course_03.png" alt=""></a></li>
+            </ul>
+            <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+            <script type="text/javascript">
+                $('.freecourse-slider').slick({
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    dots:true,
+                    arrows: false,
+                    autoplay:true,
+                    autoplaySpeed: 1800,
+                    // centerMode:true,
+                    responsive: [
+                        {
+                        breakpoint: 1400,
+                        settings: {
+                            arrows: false,
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            centerMode:true,
+                        }
+                        },
+                        {
+                        breakpoint: 1024,
+                        settings: {
+                            arrows: false,
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            centerMode:true,
+                        }
+                        },
+                        {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                        }
+                        },
+                        {
+                        breakpoint: 576,
+                        settings: {
+                            arrows: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                        }
+                    ]
+                });
+            </script>
+        </div>
+    </section>
+    <section class="container-3">
+        <div class="upcoming course-se">
+            <div class="upcoming-title course-ti">
+                <h2>充電募資</h2>
+                <ul>
+                    <li class="all"><a href="#">所有課程</a></li>
+                    <li class="underline underline-o"><a href="#">商業</a></li>
+                    <li class="underline underline-o"><a href="#">語言</a></li>
+                    <li class="underline underline-o"><a href="#">行銷</a></li>
+                    <li class="underline underline-o"><a href="#">程式與科技</a></li>
+                    <li class="underline underline-o"><a href="#">音樂</a></li>
+                    <li class="underline underline-o"><a href="#">藝術與設計</a></li>
+                </ul>
+            </div>
+            <div class="card-wrap box fadeUpTrigger">
+                <div class="card-list">
+                    <img class="speaker" src="./img_src/speaker_03.png" alt="">
+                    <a class="card-image" href="./course_example_RWD.html"><img  src="./img_src/course_06.png" alt=""></a>
+                    <div class="card-content">
+                        <div class="flex-grow">
+                            <a href="./course_example_RWD.html"><h4>建立個人品牌視覺，帶你上手風格再造</h4></a>
+                            <p class="time-speaker">290分鐘 / LearnKit</p>
+                        </div>
+                        <div class="flex-g-bar">
+                            <div class="card-tag">
+                                <div class="hashtag"><a href="#">#視覺設計</a></div>
+                                <div class="hashtag"><a href="#">#Procreate</a></div>
+                            </div>
+                            <div class="card-date-price">
+                                <p>倒數9天</p>
+                                <p>預購價<span>NT $1,890</span></p>
+                            </div>
+                            <div class="card-ptage">
+                                <p>滿電中</p>
+                                <p>131%</p>
+                            </div>
+                            <img class="card-runbar" src="./img_src/runbar_02.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-list">
+                    <img class="speaker" src="./img_src/speaker_01.png" alt="">
+                    <a class="card-image" href="./course_example_RWD.html"><img  src="./img_src/course_05.png" alt=""></a>
+                    <div class="card-content">
+                        <div class="flex-grow">
+                            <a href="./course_example_RWD.html"><h4>3D動畫生存百科大全</h4></a>
+                            <p class="time-speaker">320分鐘 / LearnKit</p>
+                        </div>
+                        <div class="flex-g-bar">
+                            <div class="card-tag">
+                                <div class="hashtag"><a href="#">#3D動畫</a></div>
+                                <div class="hashtag"><a href="#">#After Effects</a></div>
+                            </div>
+                            <div class="card-date-price">
+                                <p>倒數32天</p>
+                                <p>預購價<span>NT $2,990</span></p>
+                            </div>
+                            <div class="card-ptage">
+                                <p>充電中</p>
+                                <p>72%</p>
+                            </div>
+                            <img class="card-runbar" src="./img_src/runbar_01.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-list">
+                    <img class="speaker" src="./img_src/speaker_02.png" alt="">
+                    <a class="card-image" href="./course_example_RWD.html"><img src="./img_src/course_07.png" alt=""></a>
+                    <div class="card-content">
+                        <div class="flex-grow">
+                            <a href="./course_example_RWD.html"><h4>動態設計思維，帶你培養美感與動畫鑑賞力</h4></a>
+                            <p class="time-speaker">185分鐘 / LearnKit</p>
+                        </div>
+                        <div class="flex-g-bar">
+                            <div class="card-tag">
+                                <div class="hashtag"><a href="#">#動態設計</a></div>
+                                <div class="hashtag"><a href="#">#Keynote</a></div>
+                            </div>
+                            <div class="card-date-price">
+                                    <p>倒數4天</p>
+                                    <p>預購價<span>NT $2,080</span></p>
+                                </div>
+                            <div class="card-ptage">
+                                <p>滿電中</p>
+                                <p>205%</p>
+                            </div>
+                            <img class="card-runbar" src="./img_src/runbar_02.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="card-list">
+                    <img class="speaker" src="./img_src/speaker_04.png" alt="">
+                    <a class="card-image" href="./course_example_RWD.html"><img src="./img_src/course_08.png" alt=""></a>
+                    <div class="card-content">
+                        <div class="flex-grow">
+                            <a href="./course_example_RWD.html"><h4>Ai+Ps技能大補帖，新手上路必學攻略</h4></a>
+                            <p class="time-speaker">224分鐘 / LearnKit</p>
+                        </div>
+                        <div class="flex-g-bar">
+                            <div class="card-tag">
+                                <div class="hashtag"><a href="#">#Photoshop</a></div>
+                                <div class="hashtag"><a href="#">#Illustrator</a></div>
+                            </div>  
+                            <div class="card-date-price">
+                                <p>倒數15天</p>
+                                <p>預購價<span>NT $1,590</span></p>
+                            </div>
+                            <div class="card-ptage">
+                                <p>充電中</p>
+                                <p>92%</p>
+                            </div>
+                            <img class="card-runbar" src="./img_src/runbar_03.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-btn upcoming-more">
+                <a href="./allcourse_RWD.html">查看更多</a>
+            </div>
+        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-4">
+        <div class="popular course-se">
+            <div class="popular-title course-ti">
+                <h2>滿電熱銷</h2>
+                <ul>
+                    <li class="all"><a href="#">所有課程</a></li>
+                    <li class="underline underline-p"><a href="#">商業</a></li>
+                    <li class="underline underline-p"><a href="#">語言</a></li>
+                    <li class="underline underline-p"><a href="#">行銷</a></li>
+                    <li class="underline underline-p"><a href="#">程式與科技</a></li>
+                    <li class="underline underline-p"><a href="#">音樂</a></li>
+                    <li class="underline underline-p"><a href="#">藝術與設計</a></li>
+                </ul>
+            </div>
+            <div class="card-wrap fadeUpTrigger">
+                <div class="card-list">
+                    <img class="speaker" src="./img_src/speaker_02.png" alt="">
+                    <a class="card-image" href="./course_example_RWD.html"><img  src="./img_src/course_07.png" alt=""></a>
+                    <div class="card-content">
+                        <div class="flex-grow">
+                            <h4>動態設計思維，帶你培養美感與動畫鑑賞力</h4>
+                            <p class="time-speaker">185分鐘 / LearnKit</p>
+                            <div class="course-score">
+                                <p>課程評價</p>
+                                <img src="./img_src/feedback-score_4.png" alt="">
+                                <p>(42)</p>
+                            </div>
+                        </div>
+                        <div class="flex-g-bar">
+                            <div class="card-tag">
+                                <div class="hashtag"><a href="#">#動態設計</a></div>
+                                <div class="hashtag"><a href="#">#Keynote</a></div>
+                            </div>
+                                <div class="card-date-price-2">
+                                    <p>熱銷價<span> NT $2,080</span></p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-list">
+                    <img class="speaker" src="./img_src/speaker_01.png" alt="">
+                    <a class="card-image" href="./course_example_RWD.html"><img  src="./img_src/course_05.png" alt=""></a>
+                    <div class="card-content">
+                        <div class="flex-grow">
+                            <h4>3D動畫生存百科大全</h4>
+                            <p class="time-speaker">320分鐘 / LearnKit</p>
+                            <div class="course-score">
+                                <p>課程評價</p>
+                                <img src="./img_src/feedback-score_5.png" alt="">
+                                <p>(56)</p>
+                            </div>
+                        </div>
+                        <div class="flex-g-bar">
+                            <div class="card-tag">
+                                <div class="hashtag"><a href="#">#3D動畫</a></div>
+                                <div class="hashtag"><a href="#">#After Effects</a></div>
+                            </div>
+                                <div class="card-date-price-2">
+                                    <p>熱銷價<span> NT $2,990</span></p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-list">
+                    <img class="speaker" src="./img_src/speaker_04.png" alt="">
+                    <a class="card-image" href="./course_example_RWD.html"><img  src="./img_src/course_08.png" alt=""></a>
+                    <div class="card-content">
+                        <div class="flex-grow">
+                            <h4>Ai+Ps技能大補帖，新手上路必學攻略</h4>
+                            <p class="time-speaker">224分鐘 / LearnKit</p>
+                            <div class="course-score">
+                                <p>課程評價</p>
+                                <img src="./img_src/feedback-score_4.png" alt="">
+                                <p>(30)</p>
+                            </div>
+                        </div>
+                        <div class="flex-g-bar">
+                            <div class="card-tag">
+                                <div class="hashtag"><a href="#">#Photoshop</a></div>
+                                <div class="hashtag"><a href="#">#Illustrator</a></div>
+                            </div>
+                                <div class="card-date-price-2">
+                                    <p>熱銷價<span> NT $1,590</span></p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-list">
+                    <img class="speaker" src="./img_src/speaker_01.png" alt="">
+                    <a class="card-image" href="./course_example_RWD.html"><img  src="./img_src/course_05.png" alt=""></a>
+                    <div class="card-content">
+                        <div class="flex-grow">
+                            <h4>3D動畫生存百科大全</h4>
+                            <p class="time-speaker">320分鐘 / LearnKit</p>
+                            <div class="course-score">
+                                <p>課程評價</p>
+                                <img src="./img_src/feedback-score_5.png" alt="">
+                                <p>(70)</p>
+                            </div>
+                        </div>
+                        <div class="flex-g-bar">
+                            <div class="card-tag">
+                                <div class="hashtag"><a href="#">#3D動畫</a></div>
+                                <div class="hashtag"><a href="#">#After Effects</a></div>
+                            </div>
+                                <div class="card-date-price-2">
+                                    <p>熱銷價<span> NT $2,990</span></p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-btn upcoming-more">
+                <a href="./allcourse_RWD.html">查看更多</a>
+            </div>
+        </div>
+    </section>
+    <section class="container-5">
+        <div class="live-marquee-top">
+            <div class="track-top">
+            <div class="marquee-title">&nbsp;Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live
+            </div>
+            </div>
+        </div>
+        <div class="live">
+            <div class="live-title">
+                <h2>感受最直接的互動</h2>
+            </div>
+            <div class="live-title-small">
+                <p>即將到來</p>
+            </div>
+            <div class="live-upcoming fadeLeftTrigger">
+                <div class="live-upcoming-card ">
+                    <video autoplay muted loop playsinline  class="videos" src="./img_src/Figma01.mp4"></video>
+                    <div class="live-upcoming-content">
+                        <p class="date-time">2022/10/26(一) 晚上 7:30 </p>
+                        <a class="title" href="#"><h3>教你上手超人氣UI/UX設計工具－FIGMA</h3></a>
+                        <div class="live-join-saved">
+                            <div class="join">
+                                <img src="./img_src/join-icon.png" alt="">
+                                <p>75人已加入</p>
+                            </div>
+                            <div class="saved">
+                                <img src="./img_src/like_icon_03.png" alt="">
+                                <p>148人已收藏</p>
+                            </div>
+                        </div>
+                        <p class="live-p">Figma 是一個跨時代的 UI 設計的工具，特色是所有的設計檔案都會儲存在雲端，並且能夠用網頁瀏覽器讓多人即時協作、編輯同一份設計檔案。</p>
+                        <div class="speaker-price">
+                            <div class="speaker">
+                                <a href="#"><img src="./img_src/speaker_05.png" alt=""></a>
+                                <a href="#">Tim</a>
+                            </div>
+                            <div class="price">
+                                <p>直播價<span> NT$699</span></p>
+                            </div>
+                        </div>
+                        <div class="tag-like-saved">
+                            <div class="hashtag">
+                                <a href="#">#Figma</a>
+                                <a href="#">#UIUX</a>
+                                <a href="#">#直播</a>
+                            </div>
+                            <div class="remind-saved">
+                                <a class="btn-remind rs" href="#"><img src="./img_src/remind-icon_yello.png" alt=""></a>
+                                <a class="btn-saved rs" href="#"><img src="./img_src/like_icon_04.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="live-title-small">
+                <p>熱門直播回顧</p>
+            </div>
+            <div class="live-popular fadeRightTrigger">
+                <div class="live-popular-list">
+                    <div class="live-title">
+                        <a href="#"><p>每周兩次英語跟讀，讓你英語程度階梯式跳躍成長</p></a>
+                        <p class="live-detail">!</p>
+                    </div>
+                    <div class="live-video">
+                        <video autoplay muted loop playsinline class="videos" src="./img_src/Figma05.mp4"></video>
+                    </div>
+                    <div class="live-popular-join-price">
+                        <div class="join">
+                            <img src="./img_src/join-icon.png" alt="">
+                            <p>294人已加入</p>
+                        </div>
+                        <div class="price">
+                            <p>回顧價<span> NT$229</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="live-popular-list">
+                    <div class="live-title">
+                        <a href="#"><p>利用最佳生產力工具，打造專屬於你的高效能團隊</p></a>
+                        <p class="live-detail">!</p>
+                    </div>
+                    <div class="live-video">
+                        <video autoplay muted loop playsinline class="videos" src="./img_src/Figma02.mp4"></video>
+                    </div>
+                    <div class="live-popular-join-price">
+                        <div class="join">
+                            <img src="./img_src/join-icon.png" alt="">
+                            <p>168人已加入</p>
+                        </div>
+                        <div class="price">
+                            <p>回顧價<span> NT$499</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="live-popular-list">
+                    <div class="live-title">
+                        <a href="#"><p>零基礎！學習村村長帶你快速入門HTML、CSS</p></a>
+                        <p class="live-detail">!</p>
+                    </div>
+                    <div class="live-video">
+                        <video autoplay muted loop playsinline class="videos" src="./img_src/Figma04.mp4"></video>
+                    </div>
+                    <div class="live-popular-join-price">
+                        <div class="join">
+                            <img src="./img_src/join-icon.png" alt="">
+                            <p>145人已加入</p>
+                        </div>
+                        <div class="price">
+                            <p>回顧價<span> NT$799</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-btn">
+                <a href="#">查看更多</a>
+            </div>
+        </div>
+        <div class="live-marquee-bottom">
+            <div class="track-bottom">
+            <div class="marquee-title">&nbsp;Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live Live
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-6">
+        <div class="feedback">
+            <div class="feedback-title">
+                <h2>看看學員們說什麼</h2>
+            </div>
+            <ul class="slick-feedback">
+                <li>
+                    <div class="feedback-card">
+                        <p class="feedback-content">上班族學習的好工具，提供非常多免費知識(文章)可以學習 ! 在下班後一點一滴累積。現在我努力學習新知、認識更多職場技能，非常感謝 LearnKit，可以讓我持續學習與成長 !</p>
+                        <div class="feedback-img"><img src="./img_src/feedback_01.png" alt=""></div>
+                        <p>23歲 | 海狸小姐</p>
+                        <img class="feedback-score" src="./img_src/feedback-score_4.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="feedback-card">
+                        <p class="feedback-content">一直對攝影很有興趣，比起外面1:1的教學，這裡的線上課程CP值相對高很多~</p>
+                        <div class="feedback-img"><img src="./img_src/feedback_02.png" alt=""></div>
+                        <p>32歲 | 老王先生</p>
+                        <img class="feedback-score" src="./img_src/feedback-score_5.png" alt="">
+                    </div>
+                </li>
+                <li >
+                    <div class="feedback-card">
+                        <p class="feedback-content">上班族學習的好工具，提供非常多免費知識(文章)可以學習 ! 在下班後一點一滴累積。現在我努力學習新知、認識更多職場技能，非常感謝 LearnKit，可以讓我持續學習與成長 !</p>
+                        <div class="feedback-img"><img src="./img_src/feedback_01.png" alt=""></div>
+                        <p>23歲 | 海狸小姐</p>
+                        <img class="feedback-score" src="./img_src/feedback-score_4.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="feedback-card">
+                        <p class="feedback-content">一直對攝影很有興趣，比起外面1:1的教學，這裡的線上課程CP值相對高很多~</p>
+                        <div class="feedback-img"><img src="./img_src/feedback_02.png" alt=""></div>
+                        <p>32歲 | 老王先生</p>
+                        <img class="feedback-score" src="./img_src/feedback-score_5.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="feedback-card">
+                        <p class="feedback-content">上班族學習的好工具，提供非常多免費知識(文章)可以學習 ! 在下班後一點一滴累積。現在我努力學習新知、認識更多職場技能，非常感謝 LearnKit，可以讓我持續學習與成長 !</p>
+                        <div class="feedback-img"><img src="./img_src/feedback_01.png" alt=""></div>
+                        <p>23歲 | 海狸小姐</p>
+                        <img class="feedback-score" src="./img_src/feedback-score_4.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="feedback-card">
+                        <p class="feedback-content">一直對攝影很有興趣，比起外面1:1的教學，這裡的線上課程CP值相對高很多~</p>
+                        <div class="feedback-img"><img src="./img_src/feedback_02.png" alt=""></div>
+                        <p>32歲 | 老王先生</p>
+                        <img class="feedback-score" src="./img_src/feedback-score_5.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="feedback-card">
+                        <p class="feedback-content">上班族學習的好工具，提供非常多免費知識(文章)可以學習 ! 在下班後一點一滴累積。現在我努力學習新知、認識更多職場技能，非常感謝 LearnKit，可以讓我持續學習與成長 !</p>
+                        <div class="feedback-img"><img src="./img_src/feedback_01.png" alt=""></div>
+                        <p>23歲 | 海狸小姐</p>
+                        <img class="feedback-score" src="./img_src/feedback-score_4.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="feedback-card">
+                        <p class="feedback-content">一直對攝影很有興趣，比起外面1:1的教學，這裡的線上課程CP值相對高很多~</p>
+                        <div class="feedback-img"><img src="./img_src/feedback_02.png" alt=""></div>
+                        <p>32歲 | 老王先生</p>
+                        <img class="feedback-score" src="./img_src/feedback-score_5.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="feedback-card">
+                        <p class="feedback-content">上班族學習的好工具，提供非常多免費知識(文章)可以學習 ! 在下班後一點一滴累積。現在我努力學習新知、認識更多職場技能，非常感謝 LearnKit，可以讓我持續學習與成長 !</p>
+                        <div class="feedback-img"><img src="./img_src/feedback_01.png" alt=""></div>
+                        <p>23歲 | 海狸小姐</p>
+                        <img class="feedback-score" src="./img_src/feedback-score_4.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="feedback-card">
+                        <p class="feedback-content">一直對攝影很有興趣，比起外面1:1的教學，這裡的線上課程CP值相對高很多~</p>
+                        <div class="feedback-img"><img src="./img_src/feedback_02.png" alt=""></div>
+                        <p>32歲 | 老王先生</p>
+                        <img class="feedback-score" src="./img_src/feedback-score_5.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="feedback-card">
+                        <p class="feedback-content">上班族學習的好工具，提供非常多免費知識(文章)可以學習 ! 在下班後一點一滴累積。現在我努力學習新知、認識更多職場技能，非常感謝 LearnKit，可以讓我持續學習與成長 !</p>
+                        <div class="feedback-img"><img src="./img_src/feedback_01.png" alt=""></div>
+                        <p>23歲 | 海狸小姐</p>
+                        <img class="feedback-score" src="./img_src/feedback-score_4.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="feedback-card">
+                        <p class="feedback-content">一直對攝影很有興趣，比起外面1:1的教學，這裡的線上課程CP值相對高很多~</p>
+                        <div class="feedback-img"><img src="./img_src/feedback_02.png" alt=""></div>
+                        <p>32歲 | 老王先生</p>
+                        <img class="feedback-score" src="./img_src/feedback-score_5.png" alt="">
+                    </div>
+                </li>
+            </ul>
+            <!---------------- slick slider ----------------------->
+            <script type="text/javascript">
+                $('.slick-feedback').slick({
+                    infinite: true,
+                    slidesToShow: 4,
+                    slidesToScroll: 4,
+                    dots:true,
+                    arrows: false,
+                    responsive: [
+                        {
+                        breakpoint: 1024,
+                        settings: {
+                            infinite: true,
+                            arrows: false,
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                        }
+                        },
+                        {
+                        breakpoint: 767,
+                        settings: {
+                            infinite: true,
+                            arrows: false,
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                        }
+                        },
+                        {
+                        breakpoint: 576,
+                        settings: {
+                            infinite: true,
+                            arrows: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            fade:true,
+                        }
+                        }
+                    ]
+                    });
+            </script>
+            <div class="more-btn">
+                <a href="#">更多回饋</a>
+            </div>
+        </div>
+    </section>
+    <footer class="container-8">
+        <div class="footer-wrap">
+            <div class="footer-left">
+                <div class="footer-btn-social">
+                    <a href=""><img src="./img_src/btn-tw.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-fb.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-yt.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-ig.png" alt=""></a>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2022 LearnKit Co.,Ltd. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-menu">
+                    <div class="about-us">
+                        <h4>關於</h4>
+                        <ul>
+                            <li><a href="#">關於我們</a></li>
+                            <li><a href="#">加入我們</a></li>
+                            <li><a href="#">使用者條款</a></li>
+                            <li><a href="#">隱私權政策</a></li>
+                        </ul>
+                    </div>
+                    <div class="about-us">
+                        <h4>幫助</h4>
+                        <ul>
+                            <li><a href="#">常見問題</a></li>
+                            <li><a href="#">成為講師</a></li>
+                            <li><a href="#">課程許願</a></li>
+                            <li><a href="#">合作洽談</a></li>
+                        </ul>
+                    </div>
+                    <div class="about-us">
+                        <h4>聯絡我們</h4>
+                        <ul>
+                            <li><a href="#">Email: support@learnkit.com</a></li>
+                            <li><a href="#">電話: +886-2-1234-567</a></li>
+                            <li><a href="#">地址: 320 桃園市中壢區復興路46號9樓</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="personal-project">
+        <p>本網站為緯育TibaMe_前端設計工程師班學員專題成果作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。</p>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

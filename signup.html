@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container-17{
+            height: 50px;
+        }
+        .container-18{
+            background-image: url(./img_src/login-background.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+        }
+        .signup-login-wrap{
+            background-color: rgba(255, 255, 255, 0.727);
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            margin: 50px 0;
+            border-radius: 20px;
+        }
+        .signup-login{
+            width: 300px;
+            padding: 30px 0;
+        }
+        .signup-login .login{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #c6c6c6;
+        }
+        .signup-login .login-title{
+            color: #333;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        .signup-login .signup-title{
+            color: #7E7E7E;
+        }
+        .signup-login .signup-title a{
+            text-decoration: none;
+            color: #F5A74B;
+        }
+        .signup-login .other-title{
+            margin: 20px 0 10px 0;
+        }
+        .other-login{
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            gap: 10px;
+        }
+        .other-login p{
+            display: flex;
+            justify-content: flex;
+            align-items: center;
+            gap: 10px;
+            border-radius: 30px;
+            background-color: #fff;
+            padding: 8px 20px;
+            cursor: pointer;
+        }
+        .other-login img{
+            width: 25px;
+        }
+        .learnkit-login{
+            margin: 30px 0 10px 0px;
+        }
+        .account-password{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        .account-password input{
+            flex-grow: 1;
+            /* width: 100%; */
+            /* width: 240px; */
+            border: 1px solid #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .btn-login{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            background-color: #F5A74B;
+            border: 1px solid #F5A74B;
+            border-radius: 5px;
+            padding: 10px 20px;
+            color: #fff;
+            font-weight: 700;
+            cursor: pointer;
+        }
+        .privacy-policy{
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .privacy-policy p{
+            color: #7E7E7E;
+        }
+        .privacy-policy a{
+            text-decoration: none;
+            color: #F5A74B;
+        }
+    </style>
+</head>
+<body>
+    <section class="header">
+        <nav class="main-nav">
+                <ul class="nav-item nav-item-left">
+                    <a href="./index.html"><img class="logo" src="./img_src/logo_140px.png" alt=""></a>
+                    <li class="scroll-nav">
+                        <a href="#">探索課程<img src="./img_src/angle_down.png" alt=""></span></a>
+                        <ul class="scroll-bar">
+                            <li><a href="./allcourse.html">所有課程</a></li>
+                            <li><a href="#">商業</a></li>
+                            <li><a href="#">行銷</a></li>
+                            <li><a href="#">語言</a></li>
+                            <li><a href="#">程式與科技</a></li>
+                            <li><a href="#">音樂</a></li>
+                            <li><a href="#">藝術與設計</a></li>
+                            <li><a href="#">生活品味</a></li>
+                        </ul>
+                    </li>
+                    <li><input inputmode="search" placeholder="    Search" type="text"></li>
+                    <li><a href="#">直播</a></li>
+                    <li><a href="#">文章</a></li>
+                </ul>
+                <ul class="nav-item nav-item-right">
+                    <li><a href="#"><img class="saved" src="./img_src/saved_48px.png" alt=""></a></li>
+                    <li><a href="./shopping-cart-default.html"><img class="cart" src="./img_src/shopping-cart_48px.png" alt=""></a></li>
+                    <li><a class="nav-login" href="./login-signup.html">登入/註冊</a></li>
+                </ul>
+        </nav>
+    </section>
+    <section class="container-17">
+    </section>
+    <section class="container-18">
+        <div class="signup-login-wrap">
+            <div class="signup-login">
+                <div class="login">
+                    <p class="login-title">註冊</p>
+                    <p class="signup-title">已有帳號，<span><a href="./login-signup.html">馬上登入</a></span></p>
+                </div>
+                <p class="other-title">使用以下帳號登入</p>
+                <div class="other-login">
+                    <p><img src="./img_src/google.png" alt=""> Facebook</p>
+                    <p><img src="./img_src/facebook.png" alt=""> Google</p>
+                    <p><img src="./img_src/apple.png" alt=""> Apple</p>
+                </div>
+                <p class="learnkit-login">或註冊LearnKit帳號</p>
+                <div class="account-password">
+                    <input type="email" name="email" placeholder="電子信箱" class="form-control">
+                    <input type="text" name="account" placeholder="設定帳號" class="form-control">
+                    <input type="password" name="password" placeholder="設定密碼" class="form-control">
+                    <input type="password" name="password" placeholder="再次輸入密碼
+                        " class="form-control">
+                </div>
+                <button class="btn-login">註冊</button>
+                <div class="privacy-policy">
+                    <p>
+                    註冊後表示您已同意<a href="#">服務條款</a>與<a href="#">隱私權政策</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-8">
+        <div class="footer-wrap">
+            <div class="footer-left">
+                <div class="footer-brand">
+                    <!-- <img class="footer-logo" src="/img_src/logo_140px.png" alt=""> -->
+                    <div class="footer-btn-social">
+                        <a href=""><img src="./img_src/btn-tw.png" alt=""></a>
+                        <a href=""><img src="./img_src/btn-fb.png" alt=""></a>
+                        <a href=""><img src="./img_src/btn-yt.png" alt=""></a>
+                        <a href=""><img src="./img_src/btn-ig.png" alt=""></a>
+                    </div>
+                    <div class="copyright">
+                        <p>Copyright &copy; 2022 LearnKit Co.,Ltd. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-menu">
+                    <div class="about-us">
+                        <h4>關於</h4>
+                        <ul>
+                            <li>關於我們</li>
+                            <li>加入我們</li>
+                            <li>使用者條款</li>
+                            <li>隱私權政策</li>
+                        </ul>
+                    </div>
+                    <div class="about-us">
+                        <h4>幫助</h4>
+                        <ul>
+                            <li>常見問題</li>
+                            <li>成為講師</li>
+                            <li>課程許願</li>
+                            <li>合作洽談</li>
+                        </ul>
+                    </div>
+                    <div class="about-us">
+                        <h4>聯絡我們</h4>
+                        <ul>
+                            <li>Email: support@learnkit.com</li>
+                            <li>電話: +886-2-1234-567</li>
+                            <li>地址: 320 桃園市中壢區復興路46號9樓</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="personal-project">
+        <p>本網站為緯育TibaMe_前端設計工程師班學員專題成果作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。</p>
+    </div>
+</body>
+</html>

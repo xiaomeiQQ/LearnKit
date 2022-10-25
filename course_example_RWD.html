@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="header_RWD.css">
+    <link rel="stylesheet" href="footer_RWD.css">
+    <link rel="stylesheet" href="course_example_RWD.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    
+</head>
+<body>
+    <section class="header">
+        <nav class="main-nav">
+            <a class="rwd-cart" href="./shopping-cart-default.html"><img src="./img_src/shopping-cart_48px.png" alt=""></a>
+            <button class="rwd-search"><img src="./img_src/search-icon_48px.png" alt=""></button>
+            <label for="menu-control" class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <a href="./index_RWD.html"><img class="logo" src="./img_src/logo_140px.png" alt=""></a>
+            <div class="nav-wrap">
+                <ul class="nav-item nav-item-left">
+                    <li class="scroll-nav">
+                        <a class="underline underline-o" href="./allcourse_RWD.html">探索課程<img src="./img_src/angle_down.png" alt=""></a>
+                        <ul class="scroll-bar">
+                            <li><a href="./allcourse_RWD.html">所有課程</a></li>
+                            <li><a href="#">商業</a></li>
+                            <li><a href="#">行銷</a></li>
+                            <li><a href="#">語言</a></li>
+                            <li><a href="#">程式與科技</a></li>
+                            <li><a href="#">音樂</a></li>
+                            <li><a href="#">藝術與設計</a></li>
+                            <li><a href="#">生活品味</a></li>
+                        </ul>
+                    </li>
+                    <li><input class="search" inputmode="search" placeholder="前端工程師技能" type="search"><img src="./img_src/search-icon_48px.png" alt=""></li>
+                    <li><a class="underline underline-o" href="#">直播</a></li>
+                    <li ><a class="underline underline-o" href="#">文章</a></li>
+                </ul>
+                <ul class="nav-item nav-item-right">
+                    <li><a href="#"><img class="saved" src="./img_src/saved_48px.png" alt=""></a></li>
+                    <li><a href="./shopping-cart-default.html"><img class="cart" src="./img_src/shopping-cart_48px.png" alt=""></a></li>
+                    <li><a class="nav-login" href="./login-signup.html">登入/註冊</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="container-12">
+    </section>
+    <section class="container-13">
+        <ul class="path">
+            <li><a href="#">首頁</a></li>
+            <li><a href="#">探索課程</a></li>
+            <li><a href="#">藝術與設計</a></li>
+            <li><a href="#">帶你認識歷史與文藝</a></li>
+        </ul>
+    </section>
+    <section class="container-14">
+        <div class="course-detail">
+            <div class="course-detail-left">
+                <img src="./img_src/course_01.png" alt="">
+            </div>
+            <div class="course-detail-right">
+                <h3>文藝大學 – 帶你認識歷史與文藝</h3>
+                <div class="course-join-saved">
+                    <div class="join">
+                        <img src="./img_src/join-icon.png" alt="">
+                        <p>82人已加入</p>
+                    </div>
+                    <div class="saved">
+                        <img src="./img_src/like_icon_03.png" alt="">
+                        <p>149人已收藏</p>
+                    </div>                            
+                </div>
+                <div class="course-score">
+                    <p>課程評價</p>
+                    <img src="./img_src/feedback-score_4.png" alt="">
+                    <p>(70)</p>
+                </div>
+                <p class="course-section">(2個章節，6段單元、1項作業，課程總長共50分鐘)</p>
+                <div class="course-detail-price">
+                    <p>價格</p>
+                    <p>NT$ 1,080</p>
+                    <p>NT$ 0</p>
+                </div>
+                <div class="course-detail-speaker">
+                    <img class="speaker" src="./img_src/speaker_06.png" alt="">
+                    <p>Ria</p>
+                    <div class="course-ask">
+                        <img src="./img_src/ask-icon.png" alt="">
+                        <p>問問題</p>
+                    </div>
+                </div>
+                <div class="hashtag">
+                    <a href="#">#藝術</a>
+                    <a href="#">#歐洲歷史</a>
+                    <a href="#">#文藝復興</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-15">
+        <div class="course-intro" id="tabs">
+            <div class="course-intro-btn">
+                <a href="#"><img src="./img_src/course-share.png" alt=""></a>
+                <a href="#"><img src="./img_src/course-saved.png" alt=""></a>
+                <a href="#"><img src="./img_src/course-cart.png" alt=""></a>
+                <a href="./shopping-cart.html">立即購買</a>
+            </div>
+            <ul class="course-intro-menu">
+                <li class="underline underline-p"><a href="#tabs-1">課程介紹</a></li>
+                <li class="underline underline-p"><a href="#tabs-2">課程單元</a></li>
+                <li class="underline underline-p"><a href="#tabs-3">課程評價</a></li>
+                <li class="underline underline-p"><a href="#tab-4">購課問答</a></li>
+                <li class="underline underline-p"><a href="#tab-5">作業成果</a></li>
+            </ul>
+            <div id="tabs-1" class="course-img">
+                <img src="./img_src/course-01_01.png" alt="">
+                <img src="./img_src/course-01_02.png" alt="">
+                <img src="./img_src/course-01_03.png" alt="">
+            </div>
+            <div id="tabs-2" class="course-img">
+                <img src="./img_src/course-01_02.png" alt="">
+                <img src="./img_src/course-01_03.png" alt="">
+                <img src="./img_src/course-01_01.png" alt="">
+            </div>
+            <div id="tabs-3" class="course-img">
+                <img src="./img_src/course-01_03.png" alt="">
+                <img src="./img_src/course-01_01.png" alt="">
+                <img src="./img_src/course-01_02.png" alt="">
+            </div>
+        </div>
+        
+    </section>
+    <section class="container-16">
+        <div class="btn-more">
+            <a href="#">展開全部<img src="./img_src/angle_down_orange.png" alt=""></a>
+        </div>
+        <div class="speaker-buyfaq">
+            <div class="speaker-wrap">
+                <h3>關於老師</h3>
+                <div class="speaker-detail">
+                    <div class="speaker-img">
+                        <img src="./img_src/speaker_06.png" alt="">
+                    </div>
+                    <div class="speaker-info">
+                        <div class="speaker-name-homepage">
+                            <div class="speakername">Ria</div>
+                            <img class="speaker-homepage" src="./img_src/speaker-homepage.png" alt="">
+                        </div>
+                        <div class="speaker-intro">
+                            <p>曾經是個厭世的藝術家，自從發現教別人看懂藝術這件事情，比賣自己的創作作品還賺錢時，便轉行開始成為了教育家。</p>
+                        </div>
+                        <div class="speaker-ask">
+                            <img src="./img_src/ask-icon.png" alt="">
+                            <p>問問題</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="buy-faq">
+                <h2>購課前須知</h2>
+                <div class="faqform" id="accordion">
+                    <h3>需要準備筆電嗎?</h3>
+                    <div class="faq-ans">
+                        <p>課程無指定特定上課裝置喔！手機/平板/電腦 皆可隨時用來聽課，或是準備一本筆記本就可以開始學習囉！</p>
+                    </div>
+                    <h3>課程是直播課嗎?有限觀看次數嗎?</h3>
+                    <div class="faq-ans">
+                        <p>不是直播課程，課程皆為預錄，並以高規格影音方式呈現。<br>開課後您將可不限次數觀看，並可以在電腦、手機專屬App雙平台中，任意的時間、地點，隨時隨地無限暢看學習！</p>
+                    </div>
+                    <h3>哪些人適合這堂課?</h3>
+                    <div class="faq-ans">
+                        <p>不限年齡、性別<br>
+                            ✔ 對歷史文物、古典名畫、文藝復興有興趣<br>
+                            ✔ 對博物館的幕後工作有興趣<br>
+                            ✔ 想培養陶冶文藝性情</p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="buy-faq">
+                <h2>購課前須知</h2>
+                <ul class="faqform">
+                    <div class="faqform-1">
+                        <li>需要準備筆電嗎?</li>
+                        <img src="./img_src/angle_down_black.png" alt="">
+                    </div>
+                    <div class="faqform-2">
+                        <li>課程完全免費嗎?</li>
+                        <img src="./img_src/angle_down_black.png" alt="">
+                    </div>
+                    <div class="faqform-3">
+                        <li>上課前須要準備什麼?</li>
+                        <img src="./img_src/angle_down_black.png" alt="">
+                    </div>
+                </ul>
+            </div> -->
+        </div>
+    </section>
+    <footer class="container-8">
+        <div class="footer-wrap">
+            <div class="footer-left">
+                <div class="footer-btn-social">
+                    <a href=""><img src="./img_src/btn-tw.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-fb.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-yt.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-ig.png" alt=""></a>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2022 LearnKit Co.,Ltd. All rights reserved.</p>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-menu">
+                    <div class="about-us">
+                        <h4>關於</h4>
+                        <ul>
+                            <li><a href="#">關於我們</a></li>
+                            <li><a href="#">加入我們</a></li>
+                            <li><a href="#">使用者條款</a></li>
+                            <li><a href="#">隱私權政策</a></li>
+                        </ul>
+                    </div>
+                    <div class="about-us">
+                        <h4>幫助</h4>
+                        <ul>
+                            <li><a href="#">常見問題</a></li>
+                            <li><a href="#">成為講師</a></li>
+                            <li><a href="#">課程許願</a></li>
+                            <li><a href="#">合作洽談</a></li>
+                        </ul>
+                    </div>
+                    <div class="about-us">
+                        <h4>聯絡我們</h4>
+                        <ul>
+                            <li><a href="#">Email: support@learnkit.com</a></li>
+                            <li><a href="#">電話: +886-2-1234-567</a></li>
+                            <li><a href="#">地址: 320 桃園市中壢區復興路46號9樓</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="personal-project">
+        <p>本網站為緯育TibaMe_前端設計工程師班學員專題成果作品，本平台僅供學習、展示之用。若有侵權疑慮，您可以私訊「TibaMe-前端設計工程師養成班」，後續會由專人協助處理。</p>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
