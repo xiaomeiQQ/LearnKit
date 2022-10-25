@@ -1,5 +1,5 @@
-// Go to top
-    // $(".go-to-top").click(function (e) {
+// scrolltop
+    // $(".scrolltop").click(function (e) {
     //     e.preventDefault();
     //     $("html,body").animate(
     //     {
@@ -11,11 +11,11 @@
   
     // $(window).scroll(function () {
     //     if ($(window).scrollTop() > 200) {
-    //     if ($(".go-to-top").hasClass("hide")) {
-    //         $(".go-to-top").toggleClass("hide");
+    //     if ($(".scrolltop").hasClass("hide")) {
+    //         $(".scrolltop").toggleClass("hide");
     //     }
     //     } else {
-    //     $(".go-to-top").addClass("hide");
+    //     $(".scrolltop").addClass("hide");
     //     }
     // });
 
