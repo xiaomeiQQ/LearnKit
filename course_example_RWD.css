@@ -177,12 +177,19 @@
     font-size: 14px;
     text-decoration: none;
     background-color: #F5A74B;
-    padding: 12px 25px;
+    padding: 10px 23px;
+    border: 2px solid #F5A74B;
     border-radius: 30px;
     color: #fff;
     margin-left: 15px;
     cursor: pointer;
 }
+.course-intro-btn a:last-child:hover{
+    transition: all 0.3s ease 0s;
+    background-color: #fff;
+    color: #F5A74B;
+}
+
 .course-intro-btn{
     display: flex;
     align-items: center;

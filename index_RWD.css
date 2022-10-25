@@ -313,6 +313,7 @@
 }
 .card-list:hover>.heart{
     display: block;
+    cursor: pointer;
 }
 .course-se .card-list .speaker{
     width: 50px;
@@ -587,6 +588,13 @@
         width: 300px;
         margin: 0 20px;
     } */
+    .heart{
+        position: absolute;
+        top: 70px;
+        left: 85px;
+        right:0;
+        display: none;
+    }
 }
 @media screen and (min-width:768px){
     .learnwhere{

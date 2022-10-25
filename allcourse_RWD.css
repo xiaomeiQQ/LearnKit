@@ -290,6 +290,16 @@
     flex-wrap: wrap;
     margin-top: 30px;
 }
+.heart{
+    position: absolute;
+    top: 130px;
+    right: 15px;
+    display: none;
+}
+.card-list:hover>.heart{
+    display: block;
+    cursor: pointer;
+}
 @media screen and (max-width:575.99999px){
     .container-9{
         height: 200px;
@@ -461,6 +471,20 @@
         color: #B64DE8;
         font-size: 18px;
         font-weight: 700;
+    }
+    .card-list .card-image{
+        width: 40%;
+        overflow: hidden;
+    }
+    .heart{
+        position: absolute;
+        top: 90px;
+        left: 95px;
+        right:0;
+        display: none;
+    }
+    .card-content{
+        width: 60%;
     }
     
 }
