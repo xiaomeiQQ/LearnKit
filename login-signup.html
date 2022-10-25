@@ -6,119 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .container-17{
-            height: 50px;
-        }
-        .container-18{
-            background-image: url(./img_src/login-background.svg);
-            background-attachment: fixed;
-            background-size: cover;
-            background-repeat: no-repeat;
-            display: flex;
-            justify-content: center;
-        }
-        .signup-login-wrap{
-            background-color: rgba(255, 255, 255, 0.727);
-            width: 400px;
-            display: flex;
-            justify-content: center;
-            margin: 50px 0;
-            border-radius: 20px;
-        }
-        .signup-login{
-            width: 300px;
-            padding: 30px 0;
-        }
-        .signup-login .login{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #c6c6c6;
-        }
-        .signup-login .login-title{
-            color: #333;
-            font-size: 22px;
-            margin-bottom: 20px;
-        }
-        .signup-login .signup-title{
-            color: #7E7E7E;
-        }
-        .signup-login .signup-title a{
-            color: #F5A74B;
-            text-decoration: none;
-        }
-        .signup-login .other-title{
-            margin: 20px 0 10px 0;
-        }
-        .other-login{
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            gap: 10px;
-        }
-        .other-login p{
-            display: flex;
-            justify-content: flex;
-            align-items: center;
-            gap: 10px;
-            border-radius: 30px;
-            background-color: #fff;
-            padding: 8px 20px;
-            cursor: pointer;
-        }
-        .other-login img{
-            width: 25px;
-        }
-        .learnkit-login{
-            margin: 30px 0 10px 0px;
-        }
-        .account-password{
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-            margin-bottom: 10px;
-        }
-        .account-password input{
-            width: 240px;
-            border: 1px solid #fff;
-            padding: 10px;
-            border-radius: 5px;
-        }
-        .rememberme-forget{
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 10px;
-            align-items: center;
-        }
-        .rememberme-forget a{
-            text-decoration: none;
-            color: #7E7E7E;
-        }
-        .btn-login{
-            display: flex;
-            justify-content: center;
-            width: 100%;
-            background-color: #F5A74B;
-            border: 1px solid #F5A74B;
-            border-radius: 5px;
-            padding: 10px 20px;
-            color: #fff;
-            font-weight: 700;
-            cursor: pointer;
-        }
-    </style>
+    <link rel="stylesheet" href="index_RWD.css">
+    <link rel="stylesheet" href="login-signup.css">
+    <link rel="stylesheet" href="header_RWD.css">
+    <link rel="stylesheet" href="footer_RWD.css">
 </head>
 <body>
     <section class="header">
         <nav class="main-nav">
+            <a class="rwd-cart" href="./shopping-cart-default.html"><img src="./img_src/shopping-cart_48px.png" alt=""></a>
+            <button class="rwd-search"><img src="./img_src/search-icon_48px.png" alt=""></button>
+            <label for="menu-control" class="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <img class="logo" src="./img_src/logo_140px.png" alt="">
+            <div class="nav-wrap">
                 <ul class="nav-item nav-item-left">
-                    <a href="./index.html"><img class="logo" src="./img_src/logo_140px.png" alt=""></a>
                     <li class="scroll-nav">
-                        <a href="#">探索課程<img src="./img_src/angle_down.png" alt=""></span></a>
+                        <a class="underline underline-o" href="./allcourse_RWD.html">探索課程<img src="./img_src/angle_down.png" alt=""></a>
                         <ul class="scroll-bar">
-                            <li><a href="./allcourse.html">所有課程</a></li>
+                            <li><a href="./allcourse_RWD.html">所有課程</a></li>
                             <li><a href="#">商業</a></li>
                             <li><a href="#">行銷</a></li>
                             <li><a href="#">語言</a></li>
@@ -128,15 +37,16 @@
                             <li><a href="#">生活品味</a></li>
                         </ul>
                     </li>
-                    <li><input inputmode="search" placeholder="    Search" type="text"></li>
-                    <li><a href="#">直播</a></li>
-                    <li><a href="#">文章</a></li>
+                    <li><input class="search" inputmode="search" placeholder="前端工程師技能" type="search"><img src="./img_src/search-icon_48px.png" alt=""></li>
+                    <li><a class="underline underline-o" href="#">直播</a></li>
+                    <li ><a class="underline underline-o" href="#">文章</a></li>
                 </ul>
                 <ul class="nav-item nav-item-right">
-                    <li><img class="saved" src="./img_src/saved_48px.png" alt=""><a href="#"></a></li>
+                    <li><a href="#"><img class="saved" src="./img_src/saved_48px.png" alt=""></a></li>
                     <li><a href="./shopping-cart-default.html"><img class="cart" src="./img_src/shopping-cart_48px.png" alt=""></a></li>
                     <li><a class="nav-login" href="./login-signup.html">登入/註冊</a></li>
                 </ul>
+            </div>
         </nav>
     </section>
     <section class="container-17">
@@ -170,17 +80,14 @@
     <footer class="container-8">
         <div class="footer-wrap">
             <div class="footer-left">
-                <div class="footer-brand">
-                    <!-- <img class="footer-logo" src="/img_src/logo_140px.png" alt=""> -->
-                    <div class="footer-btn-social">
-                        <a href=""><img src="./img_src/btn-tw.png" alt=""></a>
-                        <a href=""><img src="./img_src/btn-fb.png" alt=""></a>
-                        <a href=""><img src="./img_src/btn-yt.png" alt=""></a>
-                        <a href=""><img src="./img_src/btn-ig.png" alt=""></a>
-                    </div>
-                    <div class="copyright">
-                        <p>Copyright &copy; 2022 LearnKit Co.,Ltd. All rights reserved.</p>
-                    </div>
+                <div class="footer-btn-social">
+                    <a href=""><img src="./img_src/btn-tw.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-fb.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-yt.png" alt=""></a>
+                    <a href=""><img src="./img_src/btn-ig.png" alt=""></a>
+                </div>
+                <div class="copyright">
+                    <p>Copyright &copy; 2022 LearnKit Co.,Ltd. All rights reserved.</p>
                 </div>
             </div>
             <div class="footer-right">
@@ -188,27 +95,27 @@
                     <div class="about-us">
                         <h4>關於</h4>
                         <ul>
-                            <li>關於我們</li>
-                            <li>加入我們</li>
-                            <li>使用者條款</li>
-                            <li>隱私權政策</li>
+                            <li><a href="#">關於我們</a></li>
+                            <li><a href="#">加入我們</a></li>
+                            <li><a href="#">使用者條款</a></li>
+                            <li><a href="#">隱私權政策</a></li>
                         </ul>
                     </div>
                     <div class="about-us">
                         <h4>幫助</h4>
                         <ul>
-                            <li>常見問題</li>
-                            <li>成為講師</li>
-                            <li>課程許願</li>
-                            <li>合作洽談</li>
+                            <li><a href="#">常見問題</a></li>
+                            <li><a href="#">成為講師</a></li>
+                            <li><a href="#">課程許願</a></li>
+                            <li><a href="#">合作洽談</a></li>
                         </ul>
                     </div>
                     <div class="about-us">
                         <h4>聯絡我們</h4>
                         <ul>
-                            <li>Email: support@learnkit.com</li>
-                            <li>電話: +886-2-1234-567</li>
-                            <li>地址: 320 桃園市中壢區復興路46號9樓</li>
+                            <li><a href="#">Email: support@learnkit.com</a></li>
+                            <li><a href="#">電話: +886-2-1234-567</a></li>
+                            <li><a href="#">地址: 320 桃園市中壢區復興路46號9樓</a></li>
                         </ul>
                     </div>
                 </div>
