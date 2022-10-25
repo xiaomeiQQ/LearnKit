@@ -71,3 +71,19 @@ $( function() {
       heightStyle: "content"
     });
   } );
+// ----------首頁和內頁的收藏按鈕-----------
+let hearts = document.getElementsByClassName("heart");
+let hclick =this.document.getElementsByClassName("heart")
+// -----多按鈕迴圈------
+  for(let i=0; i<hearts.length; i++){
+    hearts[i].onclick = function(){
+      if(hearts.title=="加入收藏"){
+          hclick[i].src = "./img_src/like_click.png";
+          hearts.title = "取消收藏";
+      }else{
+          hclick[i].src = "./img_src/like_unclick.png";
+          hearts.title ="加入收藏";
+      }
+  }}
+// ----------購物車頁的收藏按鈕-----------
+

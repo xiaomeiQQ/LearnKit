@@ -19,7 +19,7 @@
 }
 /* ----------slide fadeup----------- */
 .fadeUp{
-    animation:fadeUpAnime 1.2s forwards;
+    animation:fadeUpAnime 1.7s forwards;
     opacity:0;
 }
 .fadeUpTrigger{
@@ -38,7 +38,7 @@
 }
 /* ---------slide fadeLeft----------- */
 .fadeLeft{
-    animation:fadeLeft 1.5s forwards;
+    animation:fadeLeft 1.7s forwards;
     opacity:0;
 }
 @keyframes fadeLeft{
@@ -57,7 +57,7 @@
 }
 /* ------------slide faderight------------ */
 .fadeRight{
-    animation:fadeRight 0.9s forwards;
+    animation:fadeRight 1.5s forwards;
     opacity:0;
     }
     
@@ -303,6 +303,16 @@
 }
 @keyframes cardscale01{
     100%{transform: scale(1.01);}
+}
+/* ----------收藏按鈕----------- */
+.heart{
+    position: absolute;
+    top: 130px;
+    right: 15px;
+    display: none;
+}
+.card-list:hover>.heart{
+    display: block;
 }
 .course-se .card-list .speaker{
     width: 50px;
