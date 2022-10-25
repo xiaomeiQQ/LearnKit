@@ -104,7 +104,7 @@
 }
 .card-content .card-ptage{
     display: flex;
-    justify-content: space-between;
+    
     color: #AEAEAE;
 }
 .card-content .card-runbar{
@@ -437,6 +437,7 @@
     }
     .card-ptage{
         display: flex;
+        justify-content: flex-start;
         gap: 2px;
     }
     .card-runbar{
@@ -536,6 +537,7 @@
     }
     .card-content .card-ptage{
         margin: 10px 0;
+        justify-content: space-between;
     }
     .card-content .card-date-price-2{
         margin-top: 10px;
