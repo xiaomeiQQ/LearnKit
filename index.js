@@ -20,60 +20,60 @@
     // });
 
 // ----------進場特效---------------
-  function Anime(){
-      // --------------------fadeUp---------------
-      $('.fadeUpTrigger').each(function(){
-          var elemPos = $(this).offset().top-50;
-          var scroll = $(window).scrollTop();
-          var windowHeight = $(window).height();
-          if (scroll >= elemPos - windowHeight){
-          $(this).addClass('fadeUp');
-          }else{
-          $(this).removeClass('fadeUp');
-          }
-      });
-      // ----------------fadeLeft--------------------
-      $('.fadeLeftTrigger').each(function(){
-      var elemPos = $(this).offset().top-50;
-      var scroll = $(window).scrollTop();
-      var windowHeight = $(window).height();
-      if (scroll >= elemPos - windowHeight){
-      $(this).addClass('fadeLeft');
-      }else{
-      $(this).removeClass('fadeLeft');
-      }
-      });
-      // ------------------fadeRight-----------------
-      $('.fadeRightTrigger').each(function(){
-      var elemPos = $(this).offset().top-50;
-      var scroll = $(window).scrollTop();
-      var windowHeight = $(window).height();
-      if (scroll >= elemPos - windowHeight){
-      $(this).addClass('fadeRight');
-      }else{
-      $(this).removeClass('fadeRight');
-      }
-      });
-  }
+function Anime(){
+    // --------------------fadeUp---------------
+    $('.fadeUpTrigger').each(function(){
+        var elemPos = $(this).offset().top-50;
+        var scroll = $(window).scrollTop();
+        var windowHeight = $(window).height();
+        if (scroll >= elemPos - windowHeight){
+        $(this).addClass('fadeUp');
+        }else{
+        $(this).removeClass('fadeUp');
+        }
+    });
+    // ----------------fadeLeft--------------------
+    $('.fadeLeftTrigger').each(function(){
+		var elemPos = $(this).offset().top-50;
+		var scroll = $(window).scrollTop();
+		var windowHeight = $(window).height();
+		if (scroll >= elemPos - windowHeight){
+		$(this).addClass('fadeLeft');
+		}else{
+		$(this).removeClass('fadeLeft');
+		}
+		});
+    // ------------------fadeRight-----------------
+    $('.fadeRightTrigger').each(function(){
+		var elemPos = $(this).offset().top-50;
+		var scroll = $(window).scrollTop();
+		var windowHeight = $(window).height();
+		if (scroll >= elemPos - windowHeight){
+		$(this).addClass('fadeRight');
+		}else{
+		$(this).removeClass('fadeRight');
+		}
+		});
+}
 
-  $(window).scroll(function (){Anime()});
+$(window).scroll(function (){Anime();});
 
-  $(window).on('load', function(){Anime()});
+$(window).on('load', function(){Anime();});
 // -------course example for tabchange--------
-  $( function() {
-      $( "#tabs" ).tabs({
-        collapsible: true
-      });
-  });
-  //----------course example for FAQ-----------
-  $( function() {
-      $( "#accordion" ).accordion({
-        heightStyle: "content"
-      });
-    } );
+$( function() {
+    $( "#tabs" ).tabs({
+      collapsible: true
+    });
+});
+//----------course example for FAQ-----------
+$( function() {
+    $( "#accordion" ).accordion({
+      heightStyle: "content"
+    });
+  } );
 // ----------首頁和內頁的收藏按鈕-----------
 let hearts = document.getElementsByClassName("heart");
-let hclick =this.document.getElementsByClassName("heart");
+let hclick =this.document.getElementsByClassName("heart")
 // -----多按鈕迴圈------
   for(let i=0; i<hearts.length; i++){
     hearts[i].onclick = function(){
